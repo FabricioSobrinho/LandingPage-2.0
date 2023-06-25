@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100&family=Paytone+One&family=Roboto:wght@400;700&family=Tilt+Neon&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Noto Sans;
+}
+body {
+  display: flex;
+  height: 100vh;
+  background: #b90b72;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+.left {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 35%;
+  background: #a60063;
+}
+.left header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  height: 10vh;
+  width: 100%;
+  background: #69001f;
+}
+.left .leftBody h1 {
+  color: #f4d9ea;
+  margin: 10%;
+}
+.left .leftBody p {
+  color: #faecf5;
+  padding: 15px;
+}
+.right {
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background: #b90b72;
+  height: 100vh;
+  width: 65%;
+  overflow-y: auto;
+}
+.right .show {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  overflow-y: auto;
+  padding: 3%;
+  padding-bottom: 50px;
+}
+.right .show .batons {
+  display: flex;
+  flex-direction: column;
+}
+.right .show .batshow {
+  display: flex;
+  flex-wrap: wrap;
+}
+.right .ling {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 40%;
+  height: 65%;
+  width: 40%;
+  padding: 10px;
+  margin: 10px;
+  background: #970052;
+  color: #faecf5;
+  border-radius: 1px;
+  box-shadow: 0px 0px 20px -12px black;
+  transition: 0.5s;
+}
+
+.ling:hover {
+  background: #b63a86;
+  color: #faecf5;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+footer {
+  position: fixed;
+  height: 3vh;
+  width: 100vw;
+  bottom: 0;
+  background: #69001f;
+}
+
+/* Estilos da barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffc0cb;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ff69b4;
+}

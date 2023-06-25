@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100&family=Paytone+One&family=Roboto:wght@400;700&family=Tilt+Neon&display=swap");
+
+body {
+  margin: 0;
+  background: #b90b72;
+}
+header {
+  margin: 0;
+  height: 70px;
+  background: #69001f;
+  color: #f277bd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.marca {
+  display: flex;
+  padding: 20px;
+  height: 70%;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  font-family: "Noto Sans", sans-serif;
+}
+nav li a {
+  color: #f277bd;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+}
+nav a:hover {
+  cursor: pointer;
+  color: #e61d71;
+  background: #912658;
+  transition: all 0.2s ease-in;
+  border-radius: 2px;
+}
+nav .special {
+  border: 2px solid #912658;
+  padding: 10px;
+  border-radius: 7px;
+}
+nav .special:hover {
+  transition: all 0.2s ease-in;
+  background-color: #912658;
+}
+.dropli a {
+  display: block;
+}
+.dropli {
+  position: relative;
+}
+.dropdiv {
+  display: none;
+  position: absolute;
+  padding: 5px;
+  text-align: center;
+  width: 175%;
+  z-index: 9999;
+  background: #69001f;
+  box-shadow: 0px 0px 5px black;
+}
+.dropdiv a {
+  border: 1px solid #480324;
+}
+.dropli:hover .dropdiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.corpo {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  position: relative;
+  height: 100%;
+  padding-top: 0px;
+  background: #b90b72;
+}
+.container {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 95%;
+  margin: auto;
+}
+.leftpag {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  background: #b90b72;
+}
+.title {
+  padding: 20px;
+  color: #eacad7;
+  margin-top: 20px;
+  font-family: "Paytone One", sans-serif;
+  background: #6900205b;
+  border-radius: 10px;
+  box-shadow: 1px 5px 20px #d11284;
+}
+.title > h1 {
+  margin: 0;
+  text-align: left;
+  font-weight: 500;
+  color: #6a032e;
+}
+.title > h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 23pt;
+  color: #f5aad2;
+}
+.title dest {
+  color: #6a032e;
+}
+.leftpag > p {
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  color: #eacad7;
+  margin: 0;
+  margin-top: 10px;
+}
+.form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form > input {
+  position: center;
+  justify-content: center;
+  width: 300px;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  background: #d857a0;
+  color: pink;
+  border-radius: 5px;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #c95295 inset;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: pink !important;
+}
+.form > ::placeholder {
+  color: rgb(236, 128, 178);
+}
+.form > button {
+  background-color: rgb(100, 3, 48);
+  color: #f638a3;
+  position: center;
+  justify-content: center;
+  width: 250px;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+  box-shadow: 3px 5px 15px rgb(105, 73, 78);
+  transition: 0.5s;
+}
+.form > button:hover {
+  background-color: #f638a3;
+  color: rgb(100, 3, 48);
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+.rightpag {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.rightpag > img {
+  display: flex;
+  width: 75%;
+  height: 100%;
+  background: rgba(106, 3, 46, 0.087);
+  box-shadow: 0px 10px 20px rgba(238, 100, 176, 0.824);
+}
+products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  font-family: "Noto Sans";
+  box-sizing: border-box;
+  color: white;
+}
+products img {
+  height: 200px;
+  width: 200px;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  padding: 0px;
+  background: #7d0a41;
+  bottom: 0px;
+}

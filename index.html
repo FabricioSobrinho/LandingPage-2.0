@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="estilo base/estilo.css">
+</head>
+
+<body onload="productsLoad()">
+    <header>
+        <div class="marca">
+            <img src="./produtos/logomarca.png" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li class="dropli"><a href="#">Produtos</a>
+                    <div class="dropdiv">
+                        <a href="./produtos/estilo produtos/batons/batonsindex.html">Batons</a>
+                        <a href="./produtos/estilo produtos/Blushs/blushssindex.html">Blushs</a>
+                        <a href="./produtos/estilo produtos/Lapisolhos/lapisindex.html">Lápis de olhos</a>
+                        <a href="./produtos/estilo produtos/Mascaras/maascarasindex.html">Máscaras</a>
+                        <a href="./produtos/estilo produtos/Sombras/sombrasindex.html">Sombras de olhos</a>
+                    </div>
+                </li>
+                <li><a href="#">Sobre</a></li>
+                <li class="special"><a href="login-screen/login.html">Já Faz parte?</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="corpo">
+        <div class="container">
+            <div class="leftpag">
+                <div class="title">
+                    <h1>Junte-se a nós!</h1>
+                    <h2>Queremos mais <dest>gente</dest> do nosso lado</h2>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis urna justo, lobortis nec rutrum quis,
+                    mollis id felis. Phasellus cursus ligula non lectus sodales pharetra. Integer dui sapien, vehicula
+                    non sem ac, condimentum mattis sem. Pellentesque tristique magna et ligula tincidunt fringilla.
+                </p>
+                <div class="form">
+                    <input type="text" placeholder="Nome">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    <button class="btn">Juntar-se</button>
+                </div>
+            </div>
+            <div class="rightpag">
+                <img src="logosite.png">
+            </div>
+        </div>
+    </div>
+
+    <products class="produtos">
+    </products>
+
+    <div class="footer">
+    </div>
+    <script src="sript.js"></script>
+</body>
+
+</html>
