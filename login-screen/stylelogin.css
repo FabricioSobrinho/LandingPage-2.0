@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100&display=swap");
+body {
+  margin: 0;
+  background: #b90b72;
+  font-family: "Noto Sans", sans-serif;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lscreen {
+  width: 60vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rscreen {
+  width: 60vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dados {
+  width: 60%;
+  height: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 35px;
+  background: #69001f;
+  border-radius: 15px;
+  box-shadow: 0px 10px 40px rgba(222, 0, 74, 0.53);
+}
+.dados > h3 {
+  color: pink;
+  font-weight: 600;
+  margin-top: 19px;
+  background: #b5264379;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px -15px rgba(236, 7, 83, 0.338);
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.field > input {
+  width: 50%;
+  border: none;
+  background: none;
+  border-bottom: solid 2px #ff5fa2;
+  outline: none;
+  padding: 13px;
+  box-shadow: 0px 10px 10px rgba(222, 0, 74, 0.217);
+  box-sizing: border-box;
+  color: #eacad7;
+}
+.field > ::placeholder {
+  color: #ff5fa2;
+}
+.btn {
+  width: 60%;
+  padding: 15px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(100, 3, 48);
+  color: #f638a3;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  box-shadow: 0px 10px 20px -12px pink;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #f638a3;
+  color: rgb(100, 3, 48);
+  transition: all 0.35s ease;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #82052a inset;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: pink !important;
+}
+hr {
+  width: 75%;
+}
+p {
+  color: #ff3689;
+  font-size: 15pt;
+}
+a {
+  color: #ff006a;
+  text-decoration: none;
+  font-size: 14pt;
+  transition: 0.5s;
+}
+a:hover {
+  cursor: pointer;
+  color: #ff80b5;
+}
+img {
+  height: 100vh;
+}
