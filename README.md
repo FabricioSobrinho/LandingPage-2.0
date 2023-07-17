@@ -4,4 +4,4 @@ This is a landing page that includes an API. The objective of this project is to
 
 The API showcases various beauty products, functioning as a marketplace.
 
-<a href=""> `Click here to see!` </a>
+<a href="./estilo base/images/ladingPage.png"> `Click here to see!` </a>
